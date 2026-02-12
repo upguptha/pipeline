@@ -16,5 +16,10 @@ pipeline {
            echo 'IMAGE preparation and push the image to repository will be done in this stage'
            }
          }
+      stage ('Deployment') {
+        steps {
+           echo 'Deployment process will be will be done in this stage'
+           }
+         }
      }
 }
